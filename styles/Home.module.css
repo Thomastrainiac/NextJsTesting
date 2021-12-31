@@ -57,7 +57,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #f0efef;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -106,6 +106,43 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.blog {
+  background: #f0efef;
+  padding: 0.05rem;
+  border-radius: 12px;
+  margin: 20px 20px 20px 20px;
+  word-wrap: break-word;
+}
+
+.blogtitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.blogdescription {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.editor {
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 0.7rem;
+  margin-top: 25px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+h4.welcome {
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
