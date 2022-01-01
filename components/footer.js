@@ -1,11 +1,11 @@
 import styles from "./styles/footer.module.css"
 
-export default function navbar() {
+export default function footer() {
     return (
         <>
-            <div className={styles.footer}>
+            <footer className={styles.footer}>
                 <p className={styles.footer}>Created by Aaron Long (Thomastrainiac) for Bulk Games</p>
-            </div>
+            </footer>
         </>
     )
 }
