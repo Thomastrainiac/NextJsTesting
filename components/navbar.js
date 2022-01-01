@@ -12,8 +12,11 @@ export default function navbar() {
                     </a>
                 </Link>
                 <div className={styles.rightcontainer}>
-                     <Link href="/">
+                    <Link href="/">
                         <a className={styles.navitem}>Home</a>
+                    </Link>
+                    <Link href="/blog">
+                        <a className={styles.navitem}>Blog</a>
                     </Link>
                     <Link href="/Area27Roadmap">
                         <a className={styles.navitem}>Area 27</a>
